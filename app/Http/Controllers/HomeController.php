@@ -15,5 +15,9 @@ class HomeController extends Controller
             "name" => "Pranay"
         ]);
     }
+    public function create() {
+        return "Success";
+    }
+
 
 }
